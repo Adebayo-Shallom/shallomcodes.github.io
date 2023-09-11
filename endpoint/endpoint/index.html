@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment - Slack Info Endpoint</title>
+</head>
+<body>
+    <h1>Welcome to Stage One</h1>
+    <p>:dart: Objective</p>
+    <p>Create and host an endpoint using any programming language of your choice.</p>
+
+    <h2>Requirements</h2>
+    <ul>
+        <li>The information required includes:</li>
+        <ul>
+            <li>Slack name</li>
+            <li>Current day of the week</li>
+            <li>Current UTC time (with validation of +/-2)</li>
+            <li>Track</li>
+            <li>The GitHub URL of the file being run</li>
+            <li>The GitHub URL of the full source code</li>
+            <li>A Status Code of Success</li>
+        </ul>
+    </ul>
+
+    <h2>Acceptance Criteria</h2>
+    <ul>
+        <li>Endpoint Creation: Provide a publicly accessible endpoint.</li>
+        <li>GET Parameters: The endpoint should accept two GET request query parameters: slack_name and track.</li>
+        <li>Slack Name: The response should include the slack_name passed as a GET request query parameter.</li>
+        <li>Current Day of the Week: Display the current day of the week in full (e.g., Monday, Tuesday, etc.).</li>
+        <li>Current UTC Time: Return the current UTC time, accurate within a +/-2 minute window.</li>
+        <li>Track: The response should display the track of the you signed up for (Backend). This will be based on the track GET parameter passed to the endpoint.</li>
+        <li>GitHub File URL: Include a direct link to the specific file in the GitHub repository that's being executed.</li>
+        <li>GitHub Repo URL: Include a link to the main page of the GitHub repository containing the project's entire source code.</li>
+        <li>Status Code: Return 200 as Integer.</li>
+    </ul>
+
+    <h2>Submission Mode</h2>
+    <p>Please follow these submission guidelines</p>
+    <ol>
+        <li>Get into your DM</li>
+        <li>Type /grade <your-api-endpoint-url-with-the-query-parameters></li>
+        <p>E.g: /grade http://example.com/api?slack_name=example_name&track=backend</p>
+        <li>Check your result</li>
+    </ol>
+</body>
+</html>
