@@ -21,8 +21,8 @@ def get_info():
         "current_day": current_day,
         "utc_time": current_time,
         "track": track,
-        "github_file_url": "https://github.com/code50/112850479/blob/main/app.py",
-        "github_repo_url": "https://github.com/code50/112850479",
+        "github_file_url": "https://github.com/Adebayo-Shallom/shallomcodes.github.io/blob/main/endpoint/endpoint/app.py",
+        "github_repo_url": "https://github.com/Adebayo-Shallom/shallomcodes.github.io",
         "status_code": 200
     }
 
